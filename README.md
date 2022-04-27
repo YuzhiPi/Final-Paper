@@ -1,16 +1,18 @@
 # Overview
-This project aims to analyze the crime rate in the City of Toronto. The dataset used for this project is extracted from
-Open Data Toronto; cleaned and analyzed using R. The datase includes all crime occurred from 2004 to 2020 - all types of crime was included in the dataset
+The dataset is cleaned and streamlined so that a Multiple Linear Regression model and four Simple Linear Regression Model can be established to analyze how the presence and the working condition of the fire alarm system (including the smoke detector) and the sprinkler system have an affect on estimated damage (in CAD) for residential fire cases.
 
 
 # R Packages
-In order to process the data, these packages will have to be installed: 
-  1) opendatatoronto
-  2) dplyr
-  3) tidyverse
-  4) kableExtra
-  
+For analysis and visualization purposes, these r packages needs to be installed in R studio
+1) gridExtra
+2) tidyverse
+3) dplyr
+4) kableExtra
+5) stringr
+6) ggpubr
+
+
 # File Structure
-Under folder "input", you will be able to see the literatures referenced in this project
+Under folder "input", you will be able to see the the raw dataset used in this report
 Under folder "output" -> "paper", you will be able to find the original RMD, reference list, and the final PDF of the report
-Under folder "script", you will be able to find the R code that cleans and plot the graphs and tables in the project
+Under folder "script", you will be able to find the R code that cleans and plot the graphs and tables in the project, this is a clear stimulation process of all variables used in the analysis
